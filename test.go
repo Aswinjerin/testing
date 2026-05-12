@@ -27,5 +27,12 @@ func main() {
 		start = end
 	}
 	wg.Wait()
-
 }
+
+// orders := []user_info{
+// 	{Order_Id: "ORD1001", Customer: "Divine", Restaurant: "Burger Hub", Amount: 450, Status: "PLACED"},
+// 	{Order_Id: "ORD1002", Customer: "Alex", Restaurant: "Pizza Town", Amount: 0, Status: "PLACED"},
+// 	{Order_Id: "ORD1003", Customer: "", Restaurant: "Food Spot", Amount: 300, Status: "PLACED"},
+// 	{Order_Id: "ORD1004", Customer: "Sarah", Restaurant: "Sushi Zen", Amount: 1200, Status: "PLACED"},
+// 	{Order_Id: "ORD1005", Customer: "", Restaurant: "Burger Hub", Amount: 450, Status: "PLACED"},
+// }
